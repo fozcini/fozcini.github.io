@@ -1,4 +1,4 @@
-$(document).ready(function() {
+window.onload = function(e) {
     function loadJSON(callback) {
         var xobj = new XMLHttpRequest();
         xobj.overrideMimeType("application/json");
@@ -25,7 +25,7 @@ $(document).ready(function() {
                 document.getElementById("profile-photo").src = "/images/profile/" + e.id + ".png";
                 document.getElementById("name").innerHTML = e.Name;
                 document.getElementById("title").innerHTML = e.Title;
-                document.getElementById("phone-call").href = "tel:+90553508429";
+                document.getElementById("phone-call").href = phone;
                 document.getElementById("map-inner").src = e.Map
                 document.getElementById("address").innerHTML = e.Address
                 document.getElementById("email").href = mail
@@ -36,4 +36,4 @@ $(document).ready(function() {
             }
         });
     });
-})
+}
