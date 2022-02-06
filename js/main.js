@@ -16,6 +16,18 @@ loadJSON(function(response) {
     let id = new URLSearchParams(document.location.search).get("id")
     jsonresponse.forEach(e => {
         if (e.id == id) {
+
+            console.log(e.LinkedIn)
+            console.log(e.Whatsapp)
+            console.log(e.id)
+            console.log(e.Name)
+            console.log(e.Title)
+            console.log(e.Map)
+            console.log(e.Address)
+            console.log(e.Email)
+            console.log(e.Phone)
+            console.log(e.Office)
+
             document.getElementById("linkedin-link").href = e.LinkedIn;
             document.getElementById("whatsapp-link").href = e.Whatsapp;
             document.getElementById("profile-photo").src = "/images/profile/" + e.id + ".png";
