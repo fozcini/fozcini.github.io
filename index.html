@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Erkut İnşaat</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <!-- Load Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css">
+
+    <!-- Load CSS -->
+    <link rel="stylesheet" href="css/basic.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/ionicons.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/template-colors/orange.css" />
+    <link rel="stylesheet" href="css/template-dark/dark.css" />
+    <link rel="shortcut icon" href="images/favicons/favicon.ico">
+
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+    <div class="page">
+
+        <!-- background -->
+        <div class="background"></div>
+
+        <!-- Container -->
+        <div class="container opened" data-animation-in="fadeInLeft" data-animation-out="fadeOutLeft">
+            <!-- Header -->
+            <header class="header">
+                <!-- menu -->
+                <div class="top-menu">
+                    <ul>
+                        <li>
+                            <a href="https://www.facebook.com/erkutinsaat" target="_blank">
+                                <span class="icon ion-social-facebook"></span>
+                                <span class="link">Facebook</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/erkutinsaat" target="_blank">
+                                <span class="icon ion-social-instagram"></span>
+                                <span class="link">Instagram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.twitter.com/erkutinsaat" target="_blank">
+                                <span class="icon ion-social-twitter"></span>
+                                <span class="link">Twitter</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.youtube.com/channel/UCImBIv4VnfwGcRZDb9vXOFg" target="_blank">
+                                <span class="icon ion-social-youtube"></span>
+                                <span class="link">Youtube</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="linkedin-link" href="" target="_blank">
+                                <span class="icon ion-social-linkedin"></span>
+                                <span class="link">LinkedIn</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a id="whatsapp-link" href="" target="_blank">
+                                <span class="icon ion-social-whatsapp"></span>
+                                <span class="link">Whatsapp</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </header>
+
+            <!-- Card - Started -->
+            <div class="card-started" id="home-card">
+                <div class="profile">
+                    <!-- profile image -->
+                    <div class="slide" style="background-image: url(images/bg.png);"></div>
+                    <!-- profile photo -->
+                    <div class="image"><img id="profile-photo" src="" onerror="if (this.src != '/images/profile.png') this.src = '/images/profile.png';" /></div>
+                    <!-- profile titles -->
+                    <div class="title" id="name">İsim Soyisim</div>
+                    <div class="subtitle" id="title">Unvan</div>
+
+                    <!-- profile buttons -->
+                    <div class="lnks">
+                        <a href="https://www.erkut.com.tr" class="lnk" target="_blank">
+                            <span class=" text ">erkut.com.tr</span>
+                            <span class="ion ion-social-chrome "></span>
+                        </a>
+                        <a id="phone-call " href=" " class="lnk discover ">
+                            <span class="text ">Ara</span>
+                            <span class="ion ion-ios-telephone "></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card - Contacts -->
+            <div class="card-inner animated active contacts " id="contacts-card ">
+                <div class="card-wrap ">
+                    <div class="content contacts ">
+                        <!-- title -->
+                        <div class="title ">İletişim Bilgileri</div>
+                        <!-- content -->
+                        <div class="row " style="margin-bottom:30px ">
+                            <div class="col col-d-12 col-t-12 col-m-12 border-line-v ">
+                                <div class="map " id="map ">
+                                    <iframe id="map-inner " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3112.3024222224512!2d35.525510615445754!3d38.7338218641743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x152b122f5f7289a3%3A0xd56594a4d87bf918!2zRXJrdXQgxLBuxZ9hYXQ!5e0!3m2!1str!2str!4v1644168719966!5m2!1str!2str "
+                                        width="100% " style="border:0; " allowfullscreen=" " loading="lazy "></iframe>
+                                </div>
+                                <div class="info-list ">
+                                    <ul>
+                                        <li><strong>Adres . . .</strong> <span id="address ">Adres</span></li>
+                                        <li><strong>Eposta . . .</strong> <a id="email " href=" ">Eposta</a></li>
+                                        <li><strong>Telefon . . . </strong> <a id="phone " href=" ">Telefon</a></li>
+                                        <li><strong>Ofis . . . </strong> <span id="office ">Ofis</span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="clear "></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="js/jquery.min.js "></script>
+    <script src="js/jquery.validate.js "></script>
+    <script src="js/imagesloaded.pkgd.js "></script>
+    <script src="js/isotope.pkgd.js "></script>
+    <script src="js/jquery.slimscroll.js "></script>
+
+</body>
+
+</html>
