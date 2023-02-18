@@ -23,5 +23,18 @@
         "Phone": "+905534085329",
         "Email": "furkan@coryazilim.com",
         "Office": "Teknopark Ofis"
+    },
+    {
+        "id": "3",
+        "Background": "bg.png",
+        "Name": "Burka Bektaş",
+        "Title": "Genel",
+        "LinkedIn": "https://www.linkedin.com/in/fozcini/",
+        "Whatsapp": "https://wa.me/+905534085329",
+        "Map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3112.378382696883!2d35.6182953154459!3d38.732078464276896!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x152b6d185f2cbeb9%3A0xb42985d413d02994!2sCOR%20YAZILIM!5e0!3m2!1str!2str!4v1644174653332!5m2!1str!2str",
+        "Address": "Yıldırım Beyazıt Mah. Erciyes Teknopark Yerleşkesi Tekno-3 Binası Bodrum Kat, 38350 Melikgazi/Konya",
+        "Phone": "+905534085329",
+        "Email": "furkan@coryazilim.com",
+        "Office": "Teknopark Ofis"
     }
 ]
